@@ -14,8 +14,9 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
+  skip: True  # [py<35]
   number: 0
-  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
