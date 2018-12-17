@@ -1,1 +1,13 @@
-[]
+channels:
+  targets:
+    - [allennlp, main]
+  sources:
+    - pytorch
+    - conda-forge
+    - defaults
+travis:
+  secure:
+    BINSTAR_TOKEN: vUxCsnVqA5Y5BzdMo4pe5a7OfmCZJ9WP3OxlqsX718VwHLvAHpW4uRtdbPSBvUWItIJMozsz/T/8fSQGPfEjlhrEcEbAvNshLjI1wtgSqKiXMMR2iu+OskSskUbLVSfFOyzneE/8lOWqQlft8jrfB0Y0CS54hGRygYKloPbEo4qqubVzphoMlnLMOuCo2xpgOhIx/7ZL+Q6gxUq37nl1AoBQmDr3FU3dMJHJ4I9n8ShxFE66PcXU36XUmRggkpnceE5yd2tDuXoY5aH9MQkKCAs7hidV3z4ka6vCZcPFnnUMWbUMiky+8B083WBIal+9ZF5pNkeqtDTpBP2Tmd3pBSjOMNZstidFZXMOze5M99jM1ay+bccvsGZUIJ8mvuTikSbNSVqsJFjynwGad7y0RpDpo9s+k4FuhR6Y8unuAFaICuvrz8Cjqb+DxCnPiqdPn3q2jdmzNp/xTCcQektk7p7VZCJPmbZLm5xwfLK3op/3YD1IBuHIIDPWW2ZQwWzC7xpjqd+ehK3vKb4niEPd6IdEFfYx5k2yeB3yYUc5SZ9RQLCouUhKtTq8+HBjEr9zkOTpe2/x80rLNPkNFM9TEkicFom3cWQNCCV4N0VFfHaegvsFQsm47wLKKw0/2p2zGnKBFMyGUkar9wgvpn00fmncZ5Og5tcHL975az0O5s8=
+appveyor:
+  secure:
+    BINSTAR_TOKEN: 5nRsrK0FNETAS8VXVLc60FdseaFhIRIf1z/mf38zDpcu6P3yBBb9bm7QdFQ72m91

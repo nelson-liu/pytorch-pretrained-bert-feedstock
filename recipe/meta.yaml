@@ -14,16 +14,15 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
-  skip: True  # [py<35 or not linux]
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  noarch: python
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
     - pytorch >=0.4.1
     - numpy
     - boto3

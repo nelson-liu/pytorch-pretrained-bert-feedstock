@@ -1,0 +1,8 @@
+build_number_decrement:
+- '0'
+channel_sources:
+- pytorch,conda-forge,defaults
+channel_targets:
+- allennlp main
+docker_image:
+- condaforge/linux-anvil
