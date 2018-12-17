@@ -1,0 +1,4 @@
+channel_sources:
+- pytorch,conda-forge,defaults
+channel_targets:
+- allennlp main
