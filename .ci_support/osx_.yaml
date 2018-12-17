@@ -7,7 +7,7 @@ channel_sources:
 channel_targets:
 - allennlp main
 docker_image:
-- condaforge/linux-anvil
+- allennlp/allennlp-conda-linux-anvil
 macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:

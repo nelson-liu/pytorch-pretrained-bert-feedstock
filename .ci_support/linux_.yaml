@@ -5,4 +5,4 @@ channel_sources:
 channel_targets:
 - allennlp main
 docker_image:
-- condaforge/linux-anvil
+- allennlp/allennlp-conda-linux-anvil
