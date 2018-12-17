@@ -11,3 +11,5 @@ travis:
 appveyor:
   secure:
     BINSTAR_TOKEN: 5nRsrK0FNETAS8VXVLc60FdseaFhIRIf1z/mf38zDpcu6P3yBBb9bm7QdFQ72m91
+docker:
+  image: allennlp/allennlp-conda-linux-anvil
