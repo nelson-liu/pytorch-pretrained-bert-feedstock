@@ -14,7 +14,7 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
-  skip: True  # [py2k]
+  skip: True  # [py<35 or win]
   number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 

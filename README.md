@@ -16,7 +16,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/nelson-liu/pytorch-pretrained-bert-feedstock/master.svg?label=Linux)](https://circleci.com/gh/nelson-liu/pytorch-pretrained-bert-feedstock)
 [![OSX](https://img.shields.io/travis/nelson-liu/pytorch-pretrained-bert-feedstock/master.svg?label=macOS)](https://travis-ci.org/nelson-liu/pytorch-pretrained-bert-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/nelson-liu/pytorch-pretrained-bert-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/nelson-liu/pytorch-pretrained-bert-feedstock/branch/master)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
